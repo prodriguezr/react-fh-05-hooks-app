@@ -1,17 +1,15 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import { CounterWithCustomHook } from './components/01-useState';
+//import { SimpleForm } from './components/02-useEffect';
+//import { FormWithCustomHook } from './components/02-useEffect';
+//import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+//import { FocusScreen } from './components/04-useRef';
+//import { RealExampleRef } from './components/04-useRef';
+//import { Layout } from './components/05-useLayoutEffect';
+//import { Memorize } from './components/06-memos';
+//import { MemoHook } from './components/06-memos';
+//import { CallbackHook } from './components/06-memos';
+import { Parent } from './components/07-tarea-memo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render(<Parent />);
