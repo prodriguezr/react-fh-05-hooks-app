@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom/client';
+import { MainApp } from './components/09-useContext';
 // //import { CounterWithCustomHook } from './components/01-useState';
 // //import { SimpleForm } from './components/02-useEffect';
 // //import { FormWithCustomHook } from './components/02-useEffect';
@@ -10,7 +11,7 @@ import ReactDOM from 'react-dom/client';
 // //import { MemoHook } from './components/06-memos';
 // //import { CallbackHook } from './components/06-memos';
 // import { Parent } from './components/07-tarea-memo';
-import { TodoApp } from './components/08-useReducer';
+// import { TodoApp } from './components/08-useReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<TodoApp />);
+root.render(<MainApp />);
