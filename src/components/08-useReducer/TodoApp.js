@@ -26,23 +26,6 @@ export const TodoApp = () => {
     dispatch({ type: 'Add', payload });
   };
 
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-
-  //     const payload = {
-  //       id: new Date().getTime(),
-  //       description,
-  //       done: false,
-  //     };
-
-  //     dispatch({
-  //       type: 'Add',
-  //       payload,
-  //     });
-
-  //     reset();
-  //   };
-
   return (
     <div>
       <h1>Todo App ({todos.length})</h1>

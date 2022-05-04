@@ -32,6 +32,13 @@ export const useFetch = (url) => {
             data,
           });
         }
+      })
+      .catch(() => {
+        setState({
+          data: null,
+          loading: false,
+          error: 'Information could not be obtained',
+        });
       });
   }, [url]);
 

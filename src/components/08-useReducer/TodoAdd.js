@@ -8,6 +8,8 @@ export const TodoAdd = ({ handleAddTodo }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (description.trim().length < 1) return;
+
     const newTodo = {
       id: new Date().getTime(),
       description,
